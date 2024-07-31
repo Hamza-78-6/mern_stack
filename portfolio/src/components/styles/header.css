@@ -1,0 +1,153 @@
+* {
+  /* border: solid 1px red; */
+  transition: 200ms;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  scroll-behavior: smooth;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+}
+nav,
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  user-select: none;
+}
+
+.nav-top {
+  padding: 0.5%;
+  background: linear-gradient(
+    100deg,
+    rgba(129, 33, 208, 1) 49%,
+    rgba(51, 28, 82, 1) 80%,
+    rgba(41, 28, 58, 1) 92%
+  );
+  color: white;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.nav-top ul {
+  width: 40%;
+  justify-content: space-around;
+}
+
+.nav-top ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.nav-top button {
+  height: 5vh;
+  width: 7%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.nav-top button:hover {
+  background-color: transparent;
+  color: white;
+  border: solid 1.5px white;
+}
+.nav-top h1 {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* =============================================================== */
+.heroBanner,
+.header--bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 1;
+}
+.header--bottom div {
+  display: flex;
+}
+.heroBanner {
+  justify-content: space-around;
+  /* background-color: rgba(41, 28, 58, 1); */
+  background-color: rgba(51, 28, 82, 1);
+}
+.heroBanner-left {
+  width: 57%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heroBanner-left p {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin: 1% 0;
+}
+.heroBanner-left p:nth-child(2) {
+  margin: 2% 0%;
+  font-weight: bold;
+  line-height: 62px;
+  font-size: 3.2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+.heroBanner-left p:nth-child(3) {
+  font-size: 2rem;
+  margin-bottom: 6%;
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.heroBanner-left nav {
+  width: 50%;
+  justify-content: space-between;
+}
+.heroBanner-left nav li {
+  font-size: 2.2rem;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.822);
+}
+/* =================================================================================== */
+.header--bottom {
+  background-color: rgba(41, 28, 58, 1);
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.header--bottom div:not(:nth-child(3)) {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 13%; */
+}
+
+.header--bottom div h2 {
+  font-size: 3.5rem;
+  margin: 2%;
+}
+
+.header--bottom div p {
+  line-height: 24px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.header--bottom div:nth-child(3) {
+  width: 40%;
+  justify-content: space-between;
+}
+.header--bottom div img {
+  width: 55px;
+}

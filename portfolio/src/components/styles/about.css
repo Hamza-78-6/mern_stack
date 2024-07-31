@@ -1,0 +1,68 @@
+.about_skill {
+  width: 100%;
+  margin: auto;
+  /* height: 70vh; */
+  background-color: #e1ebed;
+  padding-top: 5%;
+}
+#about,
+#skills {
+  height: 40vh;
+  width: 50%;
+  margin-left: 10%;
+}
+
+#about h1,
+#skills h1 {
+  font-size: 1.5rem;
+}
+#about p,
+#skills p {
+  margin-top: 1%;
+  text-align: justify;
+  /* border: solid 1px red; */
+  /* width: 90%; */
+  line-height: 27px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.801);
+  font-size: 1.1rem;
+  word-spacing: 3px;
+}
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  letter-spacing: 2px;
+  padding: 0.3% 0.5%;
+  color: rgb(39, 35, 43);
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.144);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+/* =========================================================== */
+#skills {
+  margin-top: 6%;
+  margin-left: 60%;
+  width: auto;
+}
+#skills div {
+  display: flex;
+  flex-wrap: wrap;
+}
+#skills div img {
+  width: 64px;
+  margin: 2% 3%;
+  padding: 1%;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.123);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
